@@ -1,0 +1,22 @@
+.my_login_card{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-body{
+  background-color: white;
+  color: black;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the container height to fill the viewport */
+}
+
+.my_login_button {
+  width: 100%;
+}
