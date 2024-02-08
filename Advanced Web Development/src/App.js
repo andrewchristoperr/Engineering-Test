@@ -19,7 +19,7 @@ function App() {
       <BrowserRouter>
         <Route
           render={() => {
-            return !Login ? (
+            return Login ? (
               <Redirect to="/dashboard" />
             ) : (
               <Redirect to="/login" />
